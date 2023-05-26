@@ -10,6 +10,10 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "heroku-postbuild": "cd client && npm run build"
   },
+ "repository": {
+    "type": "git",
+    "url": "git@work.github.com:Developer-Yusuf/module-21-book-search-engine.git"
+  },
  
   "keywords": [],
   "author": "",
@@ -22,3 +26,4 @@
     "concurrently": "^5.2.0"
   }
 }
+
